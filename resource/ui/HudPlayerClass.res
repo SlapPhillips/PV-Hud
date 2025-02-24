@@ -1,3 +1,5 @@
+#base	"speedometer.res"
+
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
@@ -141,7 +143,6 @@
 				"origin_x"		"105"
 				"origin_y"		"-1"
 				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
 			}
 			"Sniper"
 			{
@@ -225,4 +226,40 @@
 			}
 		}
 	}
+	
+	"Speedometer"
+	{
+		"visible"			"1"
+		"enabled"			"1"
+		"controlName"		"ImagePanel"
+		"fieldName"			"Speedometer"
+		"wide"                                                      "64"
+        "tall"                                                      "16"
+		"visible_minmode" "1"
+        "proportionaltoparent"                                      "1"
+        "xpos"                                                      "c-313"
+        "ypos"                                                      "c+184"
+        "zpos"                                                      "0"
+		"image"				"replay/thumbnails/speedometer/speedo"
+		"scaleImage"		"1"
+	}
+	
+    "SpeedometerShadow"
+    {
+        "pin_to_sibling"                                            "Speedometer"
+
+        "controlName"                                               "ImagePanel"
+        "fieldName"                                                 "SpeedometerShadow"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "-1"
+        "wide"                                                      "64"
+        "tall"                                                      "16"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "proportionaltoparent"                                      "1"
+        "image"                                                     "replay/thumbnails/speedometer/speedo"
+        "scaleimage"                                                "1"
+        "drawcolor"                                                 "TransparentBlack"
+    }
 }

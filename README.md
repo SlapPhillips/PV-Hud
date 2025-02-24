@@ -2,13 +2,17 @@
 
 # PV HUD
 ### By povohat
+### Updated by Hypnootize
 
-**[SCREENSHOTS](../screenshots/showcase.md)** -
+**[SCREENSHOTS](https://github.com/Hypnootize/PV-Hud/blob/screenshots/showcase.md)** -
 **[INSTALLATION](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/installation/windows_install.md)** -
 **[CONTRIBUTING](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/contributing/github_contributing.md)**
 
-![Main Menu](../screenshots/01_Main_Menu.jpg)
-![Health Buff](../screenshots/06_Health_Buff.jpg)
-![Health & Ammo Low](../screenshots/07_Health_Ammo_Low.jpg)
-![Scoreboard](../screenshots/10_Scoreboard.jpg)
-![Win & Damage](../screenshots/14_Win.jpg)
+## Changelog
+
+<div align="left">
+
+- Added closed captions
+- Added speedometer to HudPlayerClass
+- Nudged PlayerStatusHealthValue to the right a few pixels because it covered the Killstreak counter in 1080p
+- Changed damage number font in HudDamageAccount

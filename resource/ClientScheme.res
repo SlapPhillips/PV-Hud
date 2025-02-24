@@ -1940,57 +1940,67 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"name"		"TF2 Secondary" [$WINDOWS] // Closed captions font | Secondary font
+				"name"		"TF2 Secondary" [!$WINDOWS] // Closed captions font | Secondary font
+				"tall"		"16" // Closed captions size | Size Medium Primary
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"outline"	"0" // Closed captions outline
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"name"		"TF2 Secondary" [$WINDOWS] // Closed captions font | Secondary font
+				"name"		"TF2 Secondary" [!$WINDOWS] // Closed captions font | Secondary font
+				"tall"		"16" // Closed captions size | Size Medium Primary
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"outline"	"0" // Closed captions outline
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"name"		"TF2 Secondary" [$WINDOWS] // Closed captions font | Secondary font
+				"name"		"TF2 Secondary" [!$WINDOWS] // Closed captions font | Secondary font
+				"tall"		"16" // Closed captions size | Size Medium Primary
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"outline"	"0" // Closed captions outline
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"name"		"TF2 Secondary" [$WINDOWS] // Closed captions font | Secondary font
+				"name"		"TF2 Secondary" [!$WINDOWS] // Closed captions font | Secondary font
+				"tall"		"16" // Closed captions size | Size Medium Primary
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"outline"	"0" // Closed captions outline
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"tall_hidef"	"24"
+				"name"		"TF2 Secondary" [$WINDOWS] // Closed captions font | Secondary font
+				"name"		"TF2 Secondary" [!$WINDOWS] // Closed captions font | Secondary font
+				"tall"		"16" // Closed captions size | Size Medium Primary
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"outline"	"0" // Closed captions outline
 			}
 		}
 		// this is the symbol font
